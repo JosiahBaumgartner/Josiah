@@ -15,3 +15,4 @@ function buildStory() {
 }
 
 document.getElementById("submit").addEventListener("click", buildStory(), false);
+document.getElementById("submit").addEventListener("click", location.reload(), false);
