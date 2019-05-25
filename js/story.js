@@ -13,4 +13,3 @@ function buildStory() {
 }
 
 document.getElementById("submit").addEventListener("click", buildStory, false);
-document.getElementById("reset").addEventListener("click", window.location.reload, false);
