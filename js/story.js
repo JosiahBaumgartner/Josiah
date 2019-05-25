@@ -14,4 +14,4 @@ function buildStory() {
 }
 
 document.getElementById("submit").addEventListener("click", buildStory(), false);
-document.getElementById("submit").addEventListener("click", location.reload(), false);
+document.getElementById("reset").addEventListener("click", location.reload(), false);
