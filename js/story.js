@@ -13,4 +13,4 @@ function buildStory() {
   document.getElementById("main").innerHTML = story;
 }
 
-document.getElementById("submit").addEventListener("click", buildStory());
+document.getElementById("submit").addEventListener("click", buildStory(), false);
