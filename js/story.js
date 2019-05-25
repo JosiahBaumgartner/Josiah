@@ -1,6 +1,6 @@
 var questions = 7;
 
-const buildStory() {
+const = buildStory() {
   var name1 = prompt ("Welcome to JosiahLibs. Please give me a man's name." + " [" + questions + " words left]")
   var ocupation1 = prompt ("Please give me an ocupaton" + " [" + (questions -= 1) + " words left]")
   var noun1 = prompt ("Please give me a plural noun." + " [" + (questions -= 1) + " words left]")
